@@ -2,9 +2,7 @@ FROM ubuntu
 
 RUN apt-get update
 RUN apt-get install vim sudo curl -y
-
-RUN apt-get update && \
-    apt-get install -y vim sudo curl python3 python3-pip
+#RUN apt-get install vim sudo curl python3 python3-pip -y
 
 RUN useradd -m -s /bin/bash -G sudo coder
 USER coder
