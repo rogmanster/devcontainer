@@ -2,7 +2,7 @@ FROM ubuntu
 
 RUN apt-get update
 #RUN apt-get install vim sudo curl -y
-RUN apt-get install vim sudo curl git -y
+RUN apt-get install vim sudo curl git jq -y
 
 RUN useradd -m -s /bin/bash -G sudo coder
 USER coder
