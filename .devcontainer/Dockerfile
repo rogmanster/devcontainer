@@ -9,10 +9,6 @@ RUN useradd -m -s /bin/bash -G users coder && echo "coder ALL=(ALL) NOPASSWD: AL
 # Ensure the .bashrc file is modified for the 'coder' user
 RUN echo 'export PS1="🐳 \[\033[1;36m\]\h \[\033[1;34m\]\W\[\033[0;35m\] \[\033[1;36m\]# \[\033[0m\]"' >> /home/coder/.bashrc
 
-# Set correct permissions for sudoers file
-#RUN chmod 440 /etc/sudoers.d/coder
-
 # Switch to 'coder' user
 USER coder
-#WORKDIR /home/coder
 
