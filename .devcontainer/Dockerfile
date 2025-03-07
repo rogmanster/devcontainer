@@ -19,5 +19,4 @@ WORKDIR /home/coder
 # Switch to the user 'coder'
 USER coder
 
-CMD ["bash"]
 
