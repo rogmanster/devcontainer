@@ -13,6 +13,6 @@ RUN echo 'export PS1="🐳 \[\033[1;36m\]\h \[\033[1;34m\]\W\[\033[0;35m\] \[\03
 #RUN chmod 440 /etc/sudoers.d/coder
 
 # Switch to 'coder' user
-#USER coder
+USER coder
 #WORKDIR /home/coder
 
