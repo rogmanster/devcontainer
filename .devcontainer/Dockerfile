@@ -1,4 +1,6 @@
-FROM ubuntu
+#FROM ubuntu
+# Build the Go Binary
+FROM registry.suse.com/bci/golang:1.23 as build
 
 RUN apt-get update
 #RUN apt-get install vim sudo curl -y
