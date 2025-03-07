@@ -1,7 +1,6 @@
 {
     "build": {
         "dockerfile": "Dockerfile"
-    }
+    },
     "postCreateCommand": "curl -L https://coder.com/install.sh | sh"
-    
 }
