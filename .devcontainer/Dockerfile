@@ -1,4 +1,3 @@
-#FROM ubuntu
 # Build the Go Binary
 FROM registry.suse.com/bci/golang:1.23 as build
 
